@@ -1,0 +1,1 @@
+/wkdir/cpac_configs/resources/abide_masks/Mask_ABIDE_85Percent_GM.nii.gz

@@ -1,0 +1,2 @@
+/wkdir/cpac_configs/resources/abide_rois/CC200.nii.gz
+
