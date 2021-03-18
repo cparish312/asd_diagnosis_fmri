@@ -590,7 +590,7 @@ lfcdCorrelationThreshold :  0.6
 
 # Maximum amount of RAM (in GB) to be used when calculating Degree Centrality.
 # Calculating Eigenvector Centrality will require additional memory based on the size of the mask or number of ROI nodes.
-memoryAllocatedForDegreeCentrality :  8.0
+memoryAllocatedForDegreeCentrality :  7.0
 
 
 # Full Width at Half Maximum of the Gaussian kernel used during spatial smoothing.
