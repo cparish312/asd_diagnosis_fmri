@@ -56,7 +56,7 @@ workingDirectory: /tmp
 
 
 # Directory where CPAC should write crash logs.
-crashLogDirectory: s3://cpacpreprocessed/abideI_output/logcrash
+crashLogDirectory: /wkdir/data/cpac_output/logcrash
 
 
 # Directory where CPAC should place processed data.
@@ -68,7 +68,7 @@ run_logging: true
 
 
 # Directory where CPAC should place run logs.
-logDirectory: s3://cpacpreprocessed/abideI_output/log
+logDirectory: /wkdir/data/cpac_output/log
 
 
 # If setting the 'Output Directory' to an S3 bucket, insert the path to your AWS credentials file here.

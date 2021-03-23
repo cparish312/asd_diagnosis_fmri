@@ -930,7 +930,7 @@ Regressors:
     include_squared: false
     summary:
       components: 5
-      filter: null
+      filter: "null"
       method: DetrendPC
     tissues:
     - WhiteMatter
