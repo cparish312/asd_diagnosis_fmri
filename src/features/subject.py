@@ -6,9 +6,11 @@ import os
 import pickle
 
 class Subject():
-	def __init__(self, sub_id, site_id, sex, age, data_dict={}, label_dict = {}):
+	def __init__(self, sub_id, dataset, site_id, tr, sex, age, data_dict={}, label_dict = {}):
 		self._sub_id = sub_id
+		self._dataset = dataset
 		self._site_id = site_id
+		self._tr = tr
 		self._sex = sex
 		self._age = age
 		self._data_dict = data_dict
