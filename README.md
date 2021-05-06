@@ -1,9 +1,8 @@
 # asd_diagnosis_fmri
 
 ## Running CPAC on AWS EC2 instance
-* Need more than 8GB EBS for docker image (150GB)
-* Amazon linux c.5.2xlarge
-* c3.4xlarge 
+* Amazon linux c.5.2xlarge 
+* 150GB EBS used
 1. `sudo yum update -y`
 2. `sudo yum install git -y`
 3. `git clone https://github.com/Connorpar/asd_diagnosis_fmri.git`
@@ -12,7 +11,7 @@
 6. Pull the latest cpac image using `sudo docker pull fcpindi/c-pac:dev-1.7.2`
 7. `sudo docker run --rm -u $UID:$UID -v ~/asd_diagnosis_fmri:/wkdir -v /tmp:/scratch fcpindi/c-pac:dev-1.7.2 s3://fcp-indi/data/Projects/ABIDE/RawDataBIDS s3://cpacpreprocessed/abideI_output/ participant --pipeline_file /wkdir/cpac_configs/settings/abide_cpac_pipeline_cloud.yml`
 
-## Runnin ASD Class training
+## Running ASD Class training
 * notebooks/Subject_Generator.ipynb : Create Subject objects
 * notebooks/Data_generator.ipynb : Generate Datasets for training using Subjects
 * notebooks/colab/ASD_class_pure.ipynb : LSTM and Transformer training without pre-training
