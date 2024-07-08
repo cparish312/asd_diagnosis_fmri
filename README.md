@@ -1,5 +1,5 @@
 # asd_diagnosis_fmri
-
+Presentation: https://connorparish.com/extra_files/parish_capstone_pres.pdf
 ## Running CPAC on AWS EC2 instance
 * Amazon linux c.5.2xlarge 
 * 150GB EBS used
